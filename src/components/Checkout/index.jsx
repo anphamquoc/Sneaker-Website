@@ -206,10 +206,11 @@ const Checkout = () => {
                           Paypal <img src={Paypal} alt="paypal" />
                         </label> */}
                         <label
-                          class="form-check-label inline-block text-gray-800"
+                          class={"form-check-label inline-block text-gray-800"}
                           for="flexRadioDefault2"
                         >
                           <PayPalButton
+                            //disable
                             options={{
                               clientId:
                                 "Ad77B1c_3OwOo-F5Ivl3mFfvlD1Lekx558kRDBOV_cdnZUvZHC-UaFcRvtcafQP-pi4L0EAuDr897QYI",
