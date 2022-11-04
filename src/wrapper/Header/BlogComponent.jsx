@@ -3,11 +3,11 @@ import React from "react";
 const BlogComponent = ({ product }) => {
   return (
     <div className="flex flex-col gap-3">
-      <div className="group overflow-hidden">
+      <div className="group overflow-hidden height-[200px]">
         <img
           src={product.hinhAnh}
           alt="Product"
-          className="group-hover:scale-125 transition ease-in-out duration-500"
+          className="group-hover:scale-125 transition ease-in-out duration-500 object-fill h-[400px] w-full"
         />
       </div>
       <div className="flex flex-col gap-3 text-center">
