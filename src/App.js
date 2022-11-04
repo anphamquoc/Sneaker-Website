@@ -2,6 +2,8 @@ import "./font-awesome-pro-5/font-awesome-pro-5/css/all.css";
 import "./App.css";
 import "react-toastify/dist/ReactToastify.css";
 import "react-medium-image-zoom/dist/styles.css";
+import "primereact/resources/themes/lara-light-indigo/theme.css";
+import "primereact/resources/primereact.css";
 import Header from "./components/header/Header";
 import "swiper/css";
 import "swiper/css/navigation";
@@ -37,6 +39,8 @@ import ForgotPassword from "./components/login/ForgotPassword";
 import SendMailSuccess from "./components/login/SendMailSuccess";
 import ResetPassword from "./components/login/ResetPassword";
 import ScrollToTop from "./components/ScrollToTop";
+import CustomRequest from "./components/CustomRequest";
+import CustomRequestSuccess from "./components/CustomRequest/CustomRequestSuccess";
 
 function App() {
   //handle no access control allow origin header
@@ -68,6 +72,11 @@ function App() {
               <Route path="/favourite" element={<Favourite />} />
               <Route path="/checkout" element={<Checkout />} />
               <Route path="/checkout/success" element={<CheckoutSuccess />} />
+              <Route path="/custom-request" element={<CustomRequest />} />
+              <Route
+                path="/custom-request/success"
+                element={<CustomRequestSuccess />}
+              />
               <Route path="/orders" element={<Order />} />
             </Route>
             <Route path="/admin" element={<Admin />}>

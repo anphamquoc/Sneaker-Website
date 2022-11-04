@@ -72,7 +72,10 @@ const ProductComponent = ({ product }) => {
       </div>
       <div className="flex flex-col gap-3 text-center">
         <a href={`/product/${product.maSp}`}>
-          <h3 className="font-semibold text-xl cursor-pointer hover:text-fuchsia-500 transition duration-100">
+          <h3
+            className="font-semibold text-xl cursor-pointer hover:text-fuchsia-500 transition duration-100 truncate"
+            title={product.tenSp}
+          >
             {product.tenSp}
           </h3>
         </a>

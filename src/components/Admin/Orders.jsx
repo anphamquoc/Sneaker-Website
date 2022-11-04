@@ -4,10 +4,6 @@ import { useDispatch, useSelector } from "react-redux";
 import Skeleton from "react-loading-skeleton";
 import { numberWithDots } from "../../actions";
 import OrderItem from "../../wrapper/Order/OrderItem";
-import {
-  fetchOneProduct,
-  fetchProducts,
-} from "../../redux/features/ProductSlice";
 import { fetchOrder } from "../../redux/features/OrderSlice";
 
 const Orders = () => {

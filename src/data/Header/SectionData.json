@@ -29,6 +29,11 @@
     "haveMenu": false
   },
   {
+    "show": "Custom",
+    "name": "custom-request",
+    "haveMenu": false
+  },
+  {
     "show": "Admin",
     "name": "Admin",
     "haveMenu": false
