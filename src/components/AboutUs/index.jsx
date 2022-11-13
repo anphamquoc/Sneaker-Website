@@ -64,12 +64,16 @@ const AboutUs = () => {
             phẩm tốt nhất
           </p>
         </div>
-        <div className="grid grid-cols-5 gap-10 mt-10">
+        <div className="grid grid-cols-4 gap-10 mt-10">
           <Member name={"Trần Đức Bảo"} role={"Thành viên"} />
           <Member name={"Phạm Quốc Ấn"} role={"Thành viên"} />
           <Member name={"Đỗ Tuấn Anh"} role={"Nhóm trưởng"} />
           <Member name={"Võ Hồng Hòa"} role={"Thành viên"} />
           <Member name={"Ngô Đức Thiện"} role={"Thành viên"} />
+          {/* <Member name={"Nghiêm Chí Bảo"} role={"Thành viên"} />
+          <Member name={"Phạm Quốc Ấn"} role={"Nhóm trưởng"} />
+          <Member name={"Nguyễn Văn Hùng"} role={"Thành viên"} />
+          <Member name={"Danh Đặng Hải Đăng"} role={"Thành viên"} /> */}
         </div>
       </div>
     </div>
