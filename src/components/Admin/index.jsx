@@ -102,7 +102,10 @@ const Admin = () => {
     dispatch(loadAllUsers());
     dispatch(loadAllReviews());
   }, [dispatch]);
-  if (user.loading === false && (!user.user || user.user.vaiTro !== "admin")) {
+  if (
+    user.loading === false &&
+    (!user.user || user.user.username !== "hello5424")
+  ) {
     navigate("/");
   }
   const [section, setSection] = useState("Dashboard");

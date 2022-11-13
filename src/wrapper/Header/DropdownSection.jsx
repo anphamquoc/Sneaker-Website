@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Section = ({ show, name, url }) => {
   const user = useSelector((state) => state.user);
-  if (name === "Admin" && (!user.user || user.user.vaiTro !== "admin"))
+  if (name === "Admin" && (!user.user || user.user.username !== "hello5424"))
     return null;
   return (
     <div>
